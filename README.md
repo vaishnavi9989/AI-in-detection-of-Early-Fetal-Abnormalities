@@ -8,22 +8,22 @@ text
 │   └── Dataset2_NonInvasive/    
 │       ├── set-a/  
 │       │   └── set-a/                  # Raw ECG data (.hea, .dat, .fqrs, .fqrs.txt, .csv)  
-│       └── set-b/  
+│       └── set-b/    
 │           └── set-b/                  # Raw ECG data (.hea, .dat, .csv)  
 
-📂 Ultrasound/
-│   ├── Ultrasound_Model.ipynb          # Ultrasound model notebook
-│   ├── ultrasound_resnet_model.pth     # Trained ResNet18 model
-│   ├── test/                           # Test set for evaluation
-│   │   ├── *.png                       # Test ultrasound images
-│   │   └── _classes.csv                # Labels for test images
-│   ├── train/                          # Training set
-│   │   ├── *.png                       # Train ultrasound images
-│   │   └── _classes.csv                # Labels for training images
-│   ├── valid/                          # Validation set
-│   │   ├── *.png                       # Validation ultrasound images
-│   │   └── _classes.csv                # Labels for validation images
-│   └── Dataset2/                       # Unlabeled fetal head images (generalization testing)
+📂 Ultrasound/  
+│   ├── Ultrasound_Model.ipynb          # Ultrasound model notebook  
+│   ├── ultrasound_resnet_model.pth     # Trained ResNet18 model  
+│   ├── test/                           # Test set for evaluation  
+│   │   ├── *.png                       # Test ultrasound images  
+│   │   └── _classes.csv                # Labels for test images  
+│   ├── train/                          # Training set  
+│   │   ├── *.png                       # Train ultrasound images  
+│   │   └── _classes.csv                # Labels for training images  
+│   ├── valid/                          # Validation set  
+│   │   ├── *.png                       # Validation ultrasound images    
+│   │   └── _classes.csv                # Labels for validation images  
+│   └── Dataset2/                       # Unlabeled fetal head images (generalization testing)  
 
 📄 Fusion_MODEL.ipynb                   # Fusion model notebook (ECG + Ultrasound)
 📄 fusion_model.pth                     # Trained fusion model weights
